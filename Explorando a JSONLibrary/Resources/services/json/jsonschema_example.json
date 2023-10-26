@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "nome": {
+            "type": "string"
+        },
+        "preco": {
+            "type": "integer"
+        },
+        "avaliacoes": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "usuario": {
+                            "type": "string"
+                        },
+                        "nota": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "usuario",
+                        "nota"
+                    ]
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "usuario": {
+                            "type": "string"
+                        },
+                        "nota": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "usuario",
+                        "nota"
+                    ]
+                }
+            ]
+        }
+    },
+    "required": [
+        "nome",
+        "preco",
+        "avaliacoes"
+    ]
+}

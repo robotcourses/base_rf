@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "base-rf"
+version = "0.1.0"
+description = "A base do Robot Framework"
+authors = ["robotcourses <git@robotcourses.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+robotframework = "^6.1.1"
+robotframework-imaplibrary = "^0.3.0"
+robotframework-requests = "^0.9.5"
+robotframework-jsonlibrary = "^0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
