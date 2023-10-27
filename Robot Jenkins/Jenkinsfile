@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    // Limpa e faz o checkout do repositório
+                    cleanWs()
+                    checkout scm
+                }
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    // Ativa o ambiente virtual e instala as dependências
+                    virtualenv = sh(script: 'python -m venv venv && source venv/bin/activate && pip install -r requirements.txt', returnStdout: true).trim()
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                script {
+                    // Adicione aqui seus comandos de teste, se necessário
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    // Adiciona os comandos de deploy
+                    sh 'python app.py &'
+                    sleep 10  // Aguarda o servidor iniciar
+                }
+            }
+        }
+    }
+}
