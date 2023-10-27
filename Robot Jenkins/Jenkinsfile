@@ -16,15 +16,7 @@ pipeline {
             steps {
                 script {
                     // Ativa o ambiente virtual e instala as dependências
-                    virtualenv = sh(script: 'python -m venv venv && source venv/bin/activate && pip install -r requirements.txt', returnStdout: true).trim()
-                }
-            }
-        }
-
-        stage('Test') {
-            steps {
-                script {
-                    // Adicione aqui seus comandos de teste, se necessário
+                    poetry install
                 }
             }
         }
@@ -33,10 +25,18 @@ pipeline {
             steps {
                 script {
                     // Adiciona os comandos de deploy
-                    sh 'python app.py &'
-                    sleep 10  // Aguarda o servidor iniciar
+                    poetry run python  './Robot Jenkins/app/app.py'
                 }
             }
         }
+
+        stage('Test') {
+            steps {
+                script {
+                    poetry run robot -d log './Robot Jenkins/regression_tests/Tests/Hello Jenkins.robot'
+                }
+            }
+        }
+
     }
 }
