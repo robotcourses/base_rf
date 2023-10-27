@@ -25,7 +25,9 @@ pipeline {
             steps {
                 script {
                     // Adiciona os comandos de deploy
-                    poetry run python  './Robot Jenkins/app/app.py'
+                    dir('./Robot Jenkins/app/') {
+                        poetry run python app.py
+                    }
                 }
             }
         }
