@@ -12,33 +12,15 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Build and Test') {
             steps {
                 script {
                     // Ativa o ambiente virtual e instala as dependências
-                    poetry install
+                    sh'''
+                        docker-compose up
+                    '''
                 }
             }
         }
-
-        stage('Deploy') {
-            steps {
-                script {
-                    // Adiciona os comandos de deploy
-                    dir('./Robot Jenkins/app/') {
-                        poetry run python app.py
-                    }
-                }
-            }
-        }
-
-        stage('Test') {
-            steps {
-                script {
-                    poetry run robot -d log './Robot Jenkins/regression_tests/Tests/Hello Jenkins.robot'
-                }
-            }
-        }
-
     }
 }

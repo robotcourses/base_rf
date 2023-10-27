@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  my-robot-app:
+    build:
+      context: .
+    # ports:
+    #   - "80:80"  # Ajuste conforme necessário
+    volumes:
+      - ./robot_jenkins:/app/robot_jenkins  # Ajuste conforme necessário
+      - ./log:/app/log
