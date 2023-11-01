@@ -1,0 +1,2 @@
+btn_login: //a[contains(text(),'Sign in')]
+product: //ul[@id='homefeatured']//a[@class='product-name' and @title='Faded Short Sleeves T-shirt']
