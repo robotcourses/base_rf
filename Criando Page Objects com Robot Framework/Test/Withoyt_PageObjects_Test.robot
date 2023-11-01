@@ -43,6 +43,5 @@ Realizar Compra
 
     ## Cart Layer
     Wait Until Element Is Visible  xpath=${cart_layer}
-    
-    Element Should Contain  xpath=${cart_layer_msg}  expected=Product successfully added to your shopping cart
 
+    Element Should Contain  xpath=${cart_layer_msg}  expected=Product successfully added to your shopping cart
