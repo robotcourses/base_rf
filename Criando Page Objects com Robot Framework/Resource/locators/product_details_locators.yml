@@ -1,0 +1,2 @@
+btn_product_quantity_up: //a[@class='btn btn-default button-plus product_quantity_up']
+btn_add_to_cart: //p[@id='add_to_cart']//button[@type='submit']
