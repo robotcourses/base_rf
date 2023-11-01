@@ -5,4 +5,4 @@ Library    SeleniumLibrary
 Abrir Browser
     Open Browser
     ...  url=https://automationtest.shop/index.php
-    ...  browser=headlessfirefox
+    ...  browser=ff
