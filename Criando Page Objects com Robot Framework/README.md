@@ -7,6 +7,6 @@ Aqui, estamos utilizando o padrão Page Objects para estruturar a nossa estrutur
 
 https://automationtest.shop/
 
-## ASSISTA AO VÍDEO DO CANAL CLICANDO NO LINK ABAIXO!
+## ASSISTA AO VÍDEO DO CANAL CLICANDO NA IMAGEM ABAIXO!
 
 [![CRIANDO PAGE OBJECTS COM ROBOT FRAMEWORK](https://i.ytimg.com/vi/gpkW76DBazs/maxresdefault.jpg)](https://www.youtube.com/watch?v=gpkW76DBazs)
