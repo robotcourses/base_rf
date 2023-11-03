@@ -7,7 +7,6 @@ Aqui, estamos utilizando o padrão Page Objects para estruturar a nossa estrutur
 
 https://automationtest.shop/
 
-## ASSISTA AO VÍDEO DO CANAL CLICANDO NA IMAGEM ABAIXO!
+## ASSISTA AO VÍDEO DO CANAL CLICANDO NO LINK ABAIXO!
 
-[![CRIANDO PAGE OBJECTS COM ROBOT FRAMEWORK
-](https://img.youtube.com/vi/gpkW76DBazs/0.jpg)](https://www.youtube.com/watch?v=gpkW76DBazs)
+[EXPLORANDO A JSON LIBRARY](https://www.youtube.com/watch?v=gpkW76DBazs)
