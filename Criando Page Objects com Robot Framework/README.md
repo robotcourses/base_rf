@@ -9,4 +9,4 @@ https://automationtest.shop/
 
 ## ASSISTA AO VÍDEO DO CANAL CLICANDO NO LINK ABAIXO!
 
-[EXPLORANDO A JSON LIBRARY](https://www.youtube.com/watch?v=gpkW76DBazs)
+[![CRIANDO PAGE OBJECTS COM ROBOT FRAMEWORK](https://i.ytimg.com/vi/gpkW76DBazs/maxresdefault.jpg)](https://www.youtube.com/watch?v=gpkW76DBazs)
