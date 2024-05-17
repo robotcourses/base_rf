@@ -16,4 +16,4 @@ EM BREVE
 
 
 ## ADQUIRA A CAMISA COM A ESTAMPA DO POST NA ROBOT STORE
-[![Robot Store](https://robotcourses.com.br/wp-content/uploads/2024/05/IMAGENS-DE-DESTQUE-ROBOT-STORE-BLOG-ROBOT-COURSES.png)](https://reserva.ink/robotstore/product/o-gherkin)
+[![Robot Store](https://robotcourses.com.br/wp-content/uploads/2024/05/IMAGENS-DE-DESTQUE-ROBOT-STORE-BLOG-ROBOT-COURSES-1-1024x578.png)](https://reserva.ink/robotstore/product/o-gherkin)
