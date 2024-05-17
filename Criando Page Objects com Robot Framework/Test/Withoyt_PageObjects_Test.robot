@@ -9,6 +9,7 @@ Variables  ../Resource/locators/product_details_locators.yml
 Variables  ../Resource/locators/my_account_locators.yml
 Variables  ../Resource/locators/cart_layer_locators.yml
 Test Setup  Abrir Browser
+Test Teardown  Close All Browsers
 
 *** Test Cases ***
 Realizar Compra

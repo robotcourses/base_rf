@@ -7,6 +7,7 @@ Resource    ../Resource/pages/authentication_page.resource
 Resource    ../Resource/pages/my_account_page.resource
 Resource    ../Resource/pages/product_detail_page.resource
 Resource    ../Resource/pages/cart_layer_page.resource
+Test Teardown  Close All Browsers
 
 *** Test Cases ***
 Realizar Compra

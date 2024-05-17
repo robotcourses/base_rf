@@ -1,3 +1,8 @@
 /.vsvode
 /log
 /__pycache__
+log.html
+report.html
+output.xml
+selenium-screenshot-*
+geckodriver-*
